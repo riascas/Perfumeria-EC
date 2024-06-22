@@ -1,6 +1,6 @@
 ﻿namespace UI
 {
-    partial class frmPrincipal
+    partial class frmPrincipal1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            label2 = new System.Windows.Forms.Label();
+            lblEmpleadoLogin = new System.Windows.Forms.Label();
+            menuStrip2 = new System.Windows.Forms.MenuStrip();
+            menuTitulo = new System.Windows.Forms.MenuStrip();
             iconoEmpleados = new FontAwesome.Sharp.IconMenuItem();
             iconoABM = new FontAwesome.Sharp.IconMenuItem();
             iconoVenta = new FontAwesome.Sharp.IconMenuItem();
@@ -35,9 +39,55 @@
             iconoCliente = new FontAwesome.Sharp.IconMenuItem();
             iconoProveedor = new FontAwesome.Sharp.IconMenuItem();
             iconoReporte = new FontAwesome.Sharp.IconMenuItem();
-            menuTitulo = new System.Windows.Forms.MenuStrip();
             menuTitulo.SuspendLayout();
             SuspendLayout();
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = System.Drawing.Color.DarkKhaki;
+            label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label2.ForeColor = System.Drawing.Color.White;
+            label2.Location = new System.Drawing.Point(599, 9);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(52, 15);
+            label2.TabIndex = 1;
+            label2.Text = "Usuario:";
+            // 
+            // lblEmpleadoLogin
+            // 
+            lblEmpleadoLogin.AutoSize = true;
+            lblEmpleadoLogin.BackColor = System.Drawing.Color.DarkKhaki;
+            lblEmpleadoLogin.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            lblEmpleadoLogin.ForeColor = System.Drawing.Color.White;
+            lblEmpleadoLogin.Location = new System.Drawing.Point(655, 9);
+            lblEmpleadoLogin.Name = "lblEmpleadoLogin";
+            lblEmpleadoLogin.Size = new System.Drawing.Size(87, 15);
+            lblEmpleadoLogin.TabIndex = 2;
+            lblEmpleadoLogin.Text = "Usuario Actual";
+            lblEmpleadoLogin.Click += label3_Click;
+            // 
+            // menuStrip2
+            // 
+            menuStrip2.AutoSize = false;
+            menuStrip2.BackColor = System.Drawing.Color.DarkKhaki;
+            menuStrip2.Location = new System.Drawing.Point(0, 0);
+            menuStrip2.Name = "menuStrip2";
+            menuStrip2.Size = new System.Drawing.Size(800, 38);
+            menuStrip2.TabIndex = 4;
+            menuStrip2.Text = "menuStrip2";
+            // 
+            // menuTitulo
+            // 
+            menuTitulo.AutoSize = false;
+            menuTitulo.BackColor = System.Drawing.Color.White;
+            menuTitulo.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { iconoEmpleados, iconoABM, iconoVenta, iconoCompra, iconoCliente, iconoProveedor, iconoReporte });
+            menuTitulo.Location = new System.Drawing.Point(0, 38);
+            menuTitulo.Name = "menuTitulo";
+            menuTitulo.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            menuTitulo.Size = new System.Drawing.Size(800, 56);
+            menuTitulo.TabIndex = 5;
+            menuTitulo.Text = "menuStrip1";
             // 
             // iconoEmpleados
             // 
@@ -124,35 +174,29 @@
             iconoReporte.Text = "Reportes";
             iconoReporte.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
-            // menuTitulo
-            // 
-            menuTitulo.AutoSize = false;
-            menuTitulo.BackColor = System.Drawing.Color.DarkKhaki;
-            menuTitulo.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { iconoEmpleados, iconoABM, iconoVenta, iconoCompra, iconoCliente, iconoProveedor, iconoReporte });
-            menuTitulo.Location = new System.Drawing.Point(0, 0);
-            menuTitulo.Name = "menuTitulo";
-            menuTitulo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            menuTitulo.Size = new System.Drawing.Size(800, 56);
-            menuTitulo.TabIndex = 0;
-            menuTitulo.Text = "menuStrip1";
-            // 
-            // frmPrincipal
+            // frmPrincipal1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(800, 450);
             Controls.Add(menuTitulo);
-            MainMenuStrip = menuTitulo;
-            Name = "frmPrincipal";
-            Text = "frmPrincipal";
-            Load += frmPrincipal_Load;
+            Controls.Add(lblEmpleadoLogin);
+            Controls.Add(label2);
+            Controls.Add(menuStrip2);
+            Name = "frmPrincipal1";
+            Text = "frmPrincipal1";
+            Load += frmPrincipal1_Load;
             menuTitulo.ResumeLayout(false);
             menuTitulo.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
-
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblEmpleadoLogin;
+        private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.MenuStrip menuTitulo;
         private FontAwesome.Sharp.IconMenuItem iconoEmpleados;
         private FontAwesome.Sharp.IconMenuItem iconoABM;
         private FontAwesome.Sharp.IconMenuItem iconoVenta;
@@ -160,6 +204,5 @@
         private FontAwesome.Sharp.IconMenuItem iconoCliente;
         private FontAwesome.Sharp.IconMenuItem iconoProveedor;
         private FontAwesome.Sharp.IconMenuItem iconoReporte;
-        private System.Windows.Forms.MenuStrip menuTitulo;
     }
 }

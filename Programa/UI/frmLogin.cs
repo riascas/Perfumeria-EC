@@ -31,7 +31,7 @@ namespace UI
 
             if (Empleados != null)
             {
-                frmPrincipal principal = new frmPrincipal();
+                frmPrincipal1 principal = new frmPrincipal1(Empleados);
 
                 principal.Show();
                 this.Hide();

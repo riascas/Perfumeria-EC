@@ -9,3 +9,14 @@ C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-Cosmos\Programa\BLL
 C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-Cosmos\Programa\BLL\obj\Debug\BLL.pdb
 C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-Cosmos\Programa\BLL\bin\Debug\System.Data.SqlClient.dll
 C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-Cosmos\Programa\BLL\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\BLL\bin\Debug\BLL.dll
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\BLL\bin\Debug\BLL.pdb
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\BLL\bin\Debug\DAL.dll
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\BLL\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\BLL\bin\Debug\DAL.pdb
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\BLL\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\BLL\obj\Debug\BLL.dll
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\BLL\obj\Debug\BLL.pdb

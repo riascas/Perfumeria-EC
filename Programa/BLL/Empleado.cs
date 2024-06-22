@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    public class Empleado
+    public class Empleado : Usuario
     {
         private int _idEmpleado;
 
