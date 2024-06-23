@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|solutionrelative:frmprincipal1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|c:\\users\\alex\\desktop\\tp-tecnicas de programacion\\perfumeria-ec\\programa\\ui\\frmprincipal1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmprincipal1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|solutionrelative:frmprincipal1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -18,11 +18,11 @@
       "AbsoluteMoniker": "D:0:0:{F681588F-9151-4054-A346-E9BB810B3B31}|..\\BLL\\BLL.csproj|c:\\users\\alex\\desktop\\tp-tecnicas de programacion\\perfumeria-ec\\programa\\bll\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|c:\\users\\alex\\desktop\\tp-tecnicas de programacion\\perfumeria-ec\\programa\\ui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|c:\\users\\alex\\desktop\\tp-tecnicas de programacion\\perfumeria-ec\\programa\\ui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -42,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmPrincipal1.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmPrincipal1.cs",
+              "RelativeDocumentMoniker": "frmPrincipal1.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmPrincipal1.cs",
+              "RelativeToolTip": "frmPrincipal1.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAQwGsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:40:13.918Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -62,19 +75,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmPrincipal1.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmPrincipal1.cs",
-              "RelativeDocumentMoniker": "frmPrincipal1.cs",
-              "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmPrincipal1.cs",
-              "RelativeToolTip": "frmPrincipal1.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBkAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:34:38.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\BLL\\Empleado.cs",
@@ -83,8 +83,7 @@
               "RelativeToolTip": "..\\BLL\\Empleado.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAowDUAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T20:53:56.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T20:53:56.289Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "frmLogin.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAIA8wCEAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T02:05:55.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T02:05:55.161Z"
             },
             {
               "$type": "Document",
@@ -108,8 +106,7 @@
               "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmLogin.cs [Dise\u00F1o]",
               "RelativeToolTip": "frmLogin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T01:40:05.793Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-06-22T01:40:05.793Z"
             },
             {
               "$type": "Document",
@@ -120,8 +117,7 @@
               "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "frmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T21:06:24.374Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-06-21T21:06:24.374Z"
             },
             {
               "$type": "Document",

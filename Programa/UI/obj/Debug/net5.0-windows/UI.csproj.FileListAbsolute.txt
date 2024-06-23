@@ -62,3 +62,12 @@ C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\
 C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.genruntimeconfig.cache
 C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\ref\UI.dll
 C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmPrincipal1.resources
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmABM.resources
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmCategoria.resources
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmClientes.resources
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmCompras.resources
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmEmpleados.resources
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmProducto.resources
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmProveedores.resources
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmReportes.resources
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmVentas.resources

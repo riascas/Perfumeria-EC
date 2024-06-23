@@ -34,11 +34,14 @@
             menuTitulo = new System.Windows.Forms.MenuStrip();
             iconoEmpleados = new FontAwesome.Sharp.IconMenuItem();
             iconoABM = new FontAwesome.Sharp.IconMenuItem();
+            subMenuCategoria = new FontAwesome.Sharp.IconMenuItem();
+            subMenuProducto = new FontAwesome.Sharp.IconMenuItem();
             iconoVenta = new FontAwesome.Sharp.IconMenuItem();
             iconoCompra = new FontAwesome.Sharp.IconMenuItem();
             iconoCliente = new FontAwesome.Sharp.IconMenuItem();
             iconoProveedor = new FontAwesome.Sharp.IconMenuItem();
             iconoReporte = new FontAwesome.Sharp.IconMenuItem();
+            panelPantalla = new System.Windows.Forms.Panel();
             menuTitulo.SuspendLayout();
             SuspendLayout();
             // 
@@ -73,7 +76,7 @@
             menuStrip2.BackColor = System.Drawing.Color.DarkKhaki;
             menuStrip2.Location = new System.Drawing.Point(0, 0);
             menuStrip2.Name = "menuStrip2";
-            menuStrip2.Size = new System.Drawing.Size(800, 38);
+            menuStrip2.Size = new System.Drawing.Size(798, 38);
             menuStrip2.TabIndex = 4;
             menuStrip2.Text = "menuStrip2";
             // 
@@ -85,7 +88,7 @@
             menuTitulo.Location = new System.Drawing.Point(0, 38);
             menuTitulo.Name = "menuTitulo";
             menuTitulo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            menuTitulo.Size = new System.Drawing.Size(800, 56);
+            menuTitulo.Size = new System.Drawing.Size(798, 56);
             menuTitulo.TabIndex = 5;
             menuTitulo.Text = "menuStrip1";
             // 
@@ -101,18 +104,40 @@
             iconoEmpleados.Size = new System.Drawing.Size(90, 60);
             iconoEmpleados.Text = "Empleados";
             iconoEmpleados.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            iconoEmpleados.Click += iconoEmpleados_Click;
             // 
             // iconoABM
             // 
             iconoABM.AutoSize = false;
+            iconoABM.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { subMenuCategoria, subMenuProducto });
             iconoABM.IconChar = FontAwesome.Sharp.IconChar.Tools;
             iconoABM.IconColor = System.Drawing.Color.Black;
             iconoABM.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconoABM.IconSize = 80;
             iconoABM.Name = "iconoABM";
-            iconoABM.Size = new System.Drawing.Size(80, 50);
+            iconoABM.Size = new System.Drawing.Size(122, 50);
             iconoABM.Text = "ABM";
             iconoABM.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // subMenuCategoria
+            // 
+            subMenuCategoria.IconChar = FontAwesome.Sharp.IconChar.None;
+            subMenuCategoria.IconColor = System.Drawing.Color.Black;
+            subMenuCategoria.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            subMenuCategoria.Name = "subMenuCategoria";
+            subMenuCategoria.Size = new System.Drawing.Size(128, 22);
+            subMenuCategoria.Text = "Categoria";
+            subMenuCategoria.Click += iconMenuItem1_Click;
+            // 
+            // subMenuProducto
+            // 
+            subMenuProducto.IconChar = FontAwesome.Sharp.IconChar.None;
+            subMenuProducto.IconColor = System.Drawing.Color.Black;
+            subMenuProducto.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            subMenuProducto.Name = "subMenuProducto";
+            subMenuProducto.Size = new System.Drawing.Size(128, 22);
+            subMenuProducto.Text = "Productos";
+            subMenuProducto.Click += subMenuProducto_Click;
             // 
             // iconoVenta
             // 
@@ -125,6 +150,7 @@
             iconoVenta.Size = new System.Drawing.Size(80, 50);
             iconoVenta.Text = "Ventas";
             iconoVenta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            iconoVenta.Click += iconoVenta_Click;
             // 
             // iconoCompra
             // 
@@ -137,6 +163,7 @@
             iconoCompra.Size = new System.Drawing.Size(80, 50);
             iconoCompra.Text = "Compras";
             iconoCompra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            iconoCompra.Click += iconoCompra_Click;
             // 
             // iconoCliente
             // 
@@ -149,6 +176,7 @@
             iconoCliente.Size = new System.Drawing.Size(80, 50);
             iconoCliente.Text = "Clientes";
             iconoCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            iconoCliente.Click += iconoCliente_Click;
             // 
             // iconoProveedor
             // 
@@ -161,6 +189,7 @@
             iconoProveedor.Size = new System.Drawing.Size(80, 50);
             iconoProveedor.Text = "Proveedores";
             iconoProveedor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            iconoProveedor.Click += iconoProveedor_Click;
             // 
             // iconoReporte
             // 
@@ -173,12 +202,21 @@
             iconoReporte.Size = new System.Drawing.Size(80, 50);
             iconoReporte.Text = "Reportes";
             iconoReporte.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            iconoReporte.Click += iconoReporte_Click;
+            // 
+            // panelPantalla
+            // 
+            panelPantalla.Location = new System.Drawing.Point(0, 97);
+            panelPantalla.Name = "panelPantalla";
+            panelPantalla.Size = new System.Drawing.Size(798, 359);
+            panelPantalla.TabIndex = 6;
             // 
             // frmPrincipal1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(800, 450);
+            ClientSize = new System.Drawing.Size(798, 456);
+            Controls.Add(panelPantalla);
             Controls.Add(menuTitulo);
             Controls.Add(lblEmpleadoLogin);
             Controls.Add(label2);
@@ -204,5 +242,8 @@
         private FontAwesome.Sharp.IconMenuItem iconoCliente;
         private FontAwesome.Sharp.IconMenuItem iconoProveedor;
         private FontAwesome.Sharp.IconMenuItem iconoReporte;
+        private FontAwesome.Sharp.IconMenuItem subMenuCategoria;
+        private FontAwesome.Sharp.IconMenuItem subMenuProducto;
+        private System.Windows.Forms.Panel panelPantalla;
     }
 }
