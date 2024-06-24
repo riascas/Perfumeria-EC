@@ -1,0 +1,14 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+*.vsidx
+/Programa/UI/.vs/UI/v17/.suo
+*.dll
+/Programa/UI/obj/Debug/net5.0-windows/UI.AssemblyInfo.cs
+/Programa/UI/obj/Debug/net5.0-windows/UI.AssemblyInfoInputs.cache
+/Programa/UI/obj/Debug/net5.0-windows/UI.assets.cache
+/Programa/UI/obj/Debug/net5.0-windows/UI.csproj.AssemblyReference.cache
+/Programa/UI/obj/Debug/net5.0-windows/UI.designer.deps.json
+/Programa/UI/obj/Debug/net5.0-windows/UI.designer.runtimeconfig.json
+/Programa/UI/obj/Debug/net5.0-windows/UI.GeneratedMSBuildEditorConfig.editorconfig
