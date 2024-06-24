@@ -2,6 +2,7 @@
 # Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
 ################################################################################
 
+<<<<<<< HEAD
 *.vsidx
 /Programa/UI/.vs/UI/v17/.suo
 *.dll
@@ -15,3 +16,9 @@
 *.resources
 *.cache
 *.cs
+=======
+/Programa/UI/.vs/UI/FileContentIndex
+>>>>>>> 7f07dee01767128310f6ec37967ee635cbe5e461
+/Programa/UI/.vs/ProjectEvaluation/ui.metadata.v7.bin
+/Programa/UI/.vs/ProjectEvaluation/ui.metadata.v7.bin
+/Programa/UI/.vs/ProjectEvaluation/ui.projects.v7.bin
