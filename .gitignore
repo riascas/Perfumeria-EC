@@ -1,0 +1,9 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/Programa/UI/.vs/ProjectEvaluation/ui.projects.v7.bin
+/Programa/UI/.vs/ProjectEvaluation/ui.metadata.v7.bin
+/Programa/UI/.vs/UI/DesignTimeBuild/.dtbcache.v2
+/Programa/UI/obj/Debug/net5.0-windows/UI.AssemblyInfo.cs
+/Programa/UI/obj/Debug/net5.0-windows/UI.AssemblyInfoInputs.cache
