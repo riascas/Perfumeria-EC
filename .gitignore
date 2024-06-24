@@ -28,3 +28,6 @@
 /Programa/UI/obj/Debug/net5.0-windows/UI.sourcelink.json
 /Programa/UI/obj/Debug/net5.0-windows/refint/UI.dll
 /Programa/UI/.vs/UI/v17/.futdcache.v2
+*.dll
+/Programa/UI/.vs/UI/FileContentIndex/281b6dcc-acab-42c4-a70e-c12940e1feec.vsidx
+/Programa/UI/obj/Debug/net5.0-windows/UI.csproj.CoreCompileInputs.cache
