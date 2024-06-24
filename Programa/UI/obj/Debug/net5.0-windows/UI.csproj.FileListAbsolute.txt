@@ -71,3 +71,7 @@ C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\
 C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmProveedores.resources
 C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmReportes.resources
 C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmVentas.resources
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmDetalleCompra.resources
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmDetalleVenta.resources
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmRegistrarCompra.resources
+C:\Users\Alex\Desktop\TP-Tecnicas de Programacion\Perfumeria-EC\Programa\UI\obj\Debug\net5.0-windows\UI.frmRegistrarVenta.resources

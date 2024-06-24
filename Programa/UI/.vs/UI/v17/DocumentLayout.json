@@ -3,19 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|c:\\users\\alex\\desktop\\tp-tecnicas de programacion\\perfumeria-ec\\programa\\ui\\frmprincipal1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|solutionrelative:frmprincipal1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmprincipal1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|solutionrelative:frmprincipal1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|c:\\users\\alex\\desktop\\tp-tecnicas de programacion\\perfumeria-ec\\programa\\ui\\frmprincipal1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|solutionrelative:frmprincipal1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|c:\\users\\alex\\desktop\\tp-tecnicas de programacion\\perfumeria-ec\\programa\\ui\\frmprincipal1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|solutionrelative:frmprincipal1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F681588F-9151-4054-A346-E9BB810B3B31}|..\\BLL\\BLL.csproj|c:\\users\\alex\\desktop\\tp-tecnicas de programacion\\perfumeria-ec\\programa\\bll\\permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F681588F-9151-4054-A346-E9BB810B3B31}|..\\BLL\\BLL.csproj|c:\\users\\alex\\desktop\\tp-tecnicas de programacion\\perfumeria-ec\\programa\\bll\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F681588F-9151-4054-A346-E9BB810B3B31}|..\\BLL\\BLL.csproj|c:\\users\\alex\\desktop\\tp-tecnicas de programacion\\perfumeria-ec\\programa\\bll\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F681588F-9151-4054-A346-E9BB810B3B31}|..\\BLL\\BLL.csproj|c:\\users\\alex\\desktop\\tp-tecnicas de programacion\\perfumeria-ec\\programa\\bll\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2881AC5C-5958-4C04-ACF7-B983B6995F18}|..\\DAL\\DAL.csproj|c:\\users\\alex\\desktop\\tp-tecnicas de programacion\\perfumeria-ec\\programa\\dal\\permiso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D84FDFD2-998D-4D9F-B20E-457E7AA16A74}|UI.csproj|C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,15 +62,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmPrincipal1.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmPrincipal1.cs",
-              "RelativeDocumentMoniker": "frmPrincipal1.cs",
-              "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmPrincipal1.cs",
-              "RelativeToolTip": "frmPrincipal1.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAQwGsAAAAFAAAA",
+              "DocumentIndex": 7,
+              "Title": "Permiso.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\DAL\\Permiso.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Permiso.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\DAL\\Permiso.cs",
+              "RelativeToolTip": "..\\DAL\\Permiso.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:40:13.918Z",
+              "WhenOpened": "2024-06-23T22:56:11.354Z",
               "EditorCaption": ""
             },
             {
@@ -70,24 +82,89 @@
               "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmPrincipal1.cs [Dise\u00F1o]",
               "RelativeToolTip": "frmPrincipal1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:46:09.607Z",
+              "WhenOpened": "2024-06-23T22:02:34.358Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPrincipal1.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmPrincipal1.cs",
+              "RelativeDocumentMoniker": "frmPrincipal1.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmPrincipal1.cs",
+              "RelativeToolTip": "frmPrincipal1.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wCgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:40:13.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\BLL\\Usuario.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\BLL\\Usuario.cs",
+              "RelativeToolTip": "..\\BLL\\Usuario.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T22:57:31.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\BLL\\Rol.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Rol.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\BLL\\Rol.cs",
+              "RelativeToolTip": "..\\BLL\\Rol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T00:58:48.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T01:40:05.793Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Permiso.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\BLL\\Permiso.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Permiso.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\BLL\\Permiso.cs",
+              "RelativeToolTip": "..\\BLL\\Permiso.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAgwC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T23:59:50.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\BLL\\Empleado.cs",
               "RelativeDocumentMoniker": "..\\BLL\\Empleado.cs",
               "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\BLL\\Empleado.cs",
               "RelativeToolTip": "..\\BLL\\Empleado.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowDUAAAALAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAcwEYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T20:53:56.289Z"
+              "WhenOpened": "2024-06-22T20:53:56.289Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "frmLogin.cs",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmLogin.cs",
               "RelativeDocumentMoniker": "frmLogin.cs",
@@ -95,22 +172,12 @@
               "RelativeToolTip": "frmLogin.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAIA8wCEAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T02:05:55.161Z"
+              "WhenOpened": "2024-06-22T02:05:55.161Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmLogin.cs",
-              "RelativeDocumentMoniker": "frmLogin.cs",
-              "ToolTip": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmLogin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "frmLogin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T01:40:05.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "frmPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-EC\\Programa\\UI\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "frmPrincipal.cs",
@@ -121,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-Cosmos\\Programa\\BLL\\Usuario.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Perfumeria-Cosmos\\Programa\\BLL\\Usuario.cs",
@@ -133,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Rol.cs",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-Cosmos\\Programa\\BLL\\Rol.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Perfumeria-Cosmos\\Programa\\BLL\\Rol.cs",
@@ -145,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\TP-Tecnicas de Programacion\\Perfumeria-Cosmos\\Programa\\DAL\\Conexion.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Perfumeria-Cosmos\\Programa\\DAL\\Conexion.cs",

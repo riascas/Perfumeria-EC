@@ -28,6 +28,19 @@ namespace UI
 
         private void frmPrincipal1_Load(object sender, EventArgs e)
         {
+            List<Permiso> permisos = new Permiso().ListarPermisos(empleadoLogin.IDEmpleado);
+            foreach (IconMenuItem icono in menuTitulo.Items)
+            {
+                bool permisoOtorgado = permisos.Any(m => m.NombreMenu == icono.Name);
+
+                if (permisoOtorgado == false) 
+                {
+                    icono.Visible = false;
+                }
+
+            }
+
+
             lblEmpleadoLogin.Text = empleadoLogin.NombreUsuario;
         }
 
@@ -81,15 +94,15 @@ namespace UI
             AbrirPantalla(iconoABM, new frmProducto());
         }
 
-        private void iconoVenta_Click(object sender, EventArgs e)
+        /*private void iconoVenta_Click(object sender, EventArgs e)
         {
             AbrirPantalla(iconoVenta, new frmVentas());
-        }
+        }*/
 
-        private void iconoCompra_Click(object sender, EventArgs e)
+        /*private void iconoCompra_Click(object sender, EventArgs e)
         {
             AbrirPantalla(iconoCompra, new frmCompras());
-        }
+        }*/
 
         private void iconoCliente_Click(object sender, EventArgs e)
         {
@@ -104,6 +117,26 @@ namespace UI
         private void iconoReporte_Click(object sender, EventArgs e)
         {
             AbrirPantalla(iconoReporte, new frmReportes());
+        }
+
+        private void iconoRegistarVenta_Click(object sender, EventArgs e)
+        {
+            AbrirPantalla(iconoVenta, new frmRegistrarVenta());
+        }
+
+        private void iconoDetalleVenta_Click(object sender, EventArgs e)
+        {
+            AbrirPantalla(iconoVenta, new frmDetalleVenta());
+        }
+
+        private void iconoRegistrarCompra_Click(object sender, EventArgs e)
+        {
+            AbrirPantalla(iconoCompra, new frmRegistrarCompra());
+        }
+
+        private void iconoDetalleCompra_Click(object sender, EventArgs e)
+        {
+            AbrirPantalla(iconoCompra, new frmDetalleCompra());
         }
     }
 }

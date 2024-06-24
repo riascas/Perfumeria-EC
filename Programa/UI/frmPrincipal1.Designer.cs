@@ -37,7 +37,11 @@
             subMenuCategoria = new FontAwesome.Sharp.IconMenuItem();
             subMenuProducto = new FontAwesome.Sharp.IconMenuItem();
             iconoVenta = new FontAwesome.Sharp.IconMenuItem();
+            iconoRegistarVenta = new FontAwesome.Sharp.IconMenuItem();
+            iconoDetalleVenta = new FontAwesome.Sharp.IconMenuItem();
             iconoCompra = new FontAwesome.Sharp.IconMenuItem();
+            iconoRegistrarCompra = new FontAwesome.Sharp.IconMenuItem();
+            iconoDetalleCompra = new FontAwesome.Sharp.IconMenuItem();
             iconoCliente = new FontAwesome.Sharp.IconMenuItem();
             iconoProveedor = new FontAwesome.Sharp.IconMenuItem();
             iconoReporte = new FontAwesome.Sharp.IconMenuItem();
@@ -142,6 +146,7 @@
             // iconoVenta
             // 
             iconoVenta.AutoSize = false;
+            iconoVenta.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { iconoRegistarVenta, iconoDetalleVenta });
             iconoVenta.IconChar = FontAwesome.Sharp.IconChar.Shop;
             iconoVenta.IconColor = System.Drawing.Color.Black;
             iconoVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -150,11 +155,31 @@
             iconoVenta.Size = new System.Drawing.Size(80, 50);
             iconoVenta.Text = "Ventas";
             iconoVenta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            iconoVenta.Click += iconoVenta_Click;
+            // 
+            // iconoRegistarVenta
+            // 
+            iconoRegistarVenta.IconChar = FontAwesome.Sharp.IconChar.None;
+            iconoRegistarVenta.IconColor = System.Drawing.Color.Black;
+            iconoRegistarVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconoRegistarVenta.Name = "iconoRegistarVenta";
+            iconoRegistarVenta.Size = new System.Drawing.Size(129, 22);
+            iconoRegistarVenta.Text = "Registrar";
+            iconoRegistarVenta.Click += iconoRegistarVenta_Click;
+            // 
+            // iconoDetalleVenta
+            // 
+            iconoDetalleVenta.IconChar = FontAwesome.Sharp.IconChar.None;
+            iconoDetalleVenta.IconColor = System.Drawing.Color.Black;
+            iconoDetalleVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconoDetalleVenta.Name = "iconoDetalleVenta";
+            iconoDetalleVenta.Size = new System.Drawing.Size(129, 22);
+            iconoDetalleVenta.Text = "Ver Detalle";
+            iconoDetalleVenta.Click += iconoDetalleVenta_Click;
             // 
             // iconoCompra
             // 
             iconoCompra.AutoSize = false;
+            iconoCompra.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { iconoRegistrarCompra, iconoDetalleCompra });
             iconoCompra.IconChar = FontAwesome.Sharp.IconChar.CartPlus;
             iconoCompra.IconColor = System.Drawing.Color.Black;
             iconoCompra.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -163,7 +188,26 @@
             iconoCompra.Size = new System.Drawing.Size(80, 50);
             iconoCompra.Text = "Compras";
             iconoCompra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            iconoCompra.Click += iconoCompra_Click;
+            // 
+            // iconoRegistrarCompra
+            // 
+            iconoRegistrarCompra.IconChar = FontAwesome.Sharp.IconChar.None;
+            iconoRegistrarCompra.IconColor = System.Drawing.Color.Black;
+            iconoRegistrarCompra.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconoRegistrarCompra.Name = "iconoRegistrarCompra";
+            iconoRegistrarCompra.Size = new System.Drawing.Size(180, 22);
+            iconoRegistrarCompra.Text = "Registrar";
+            iconoRegistrarCompra.Click += iconoRegistrarCompra_Click;
+            // 
+            // iconoDetalleCompra
+            // 
+            iconoDetalleCompra.IconChar = FontAwesome.Sharp.IconChar.None;
+            iconoDetalleCompra.IconColor = System.Drawing.Color.Black;
+            iconoDetalleCompra.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconoDetalleCompra.Name = "iconoDetalleCompra";
+            iconoDetalleCompra.Size = new System.Drawing.Size(180, 22);
+            iconoDetalleCompra.Text = "Ver Detalle";
+            iconoDetalleCompra.Click += iconoDetalleCompra_Click;
             // 
             // iconoCliente
             // 
@@ -245,5 +289,9 @@
         private FontAwesome.Sharp.IconMenuItem subMenuCategoria;
         private FontAwesome.Sharp.IconMenuItem subMenuProducto;
         private System.Windows.Forms.Panel panelPantalla;
+        private FontAwesome.Sharp.IconMenuItem iconoRegistarVenta;
+        private FontAwesome.Sharp.IconMenuItem iconoDetalleVenta;
+        private FontAwesome.Sharp.IconMenuItem iconoRegistrarCompra;
+        private FontAwesome.Sharp.IconMenuItem iconoDetalleCompra;
     }
 }
