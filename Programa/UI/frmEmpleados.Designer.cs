@@ -51,7 +51,6 @@
             label6 = new System.Windows.Forms.Label();
             textidRol = new System.Windows.Forms.TextBox();
             dataGridView1 = new System.Windows.Forms.DataGridView();
-            label7 = new System.Windows.Forms.Label();
             idUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             btnseleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
             Nrodocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -62,6 +61,7 @@
             Rol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             EstadoValor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -286,17 +286,6 @@
             dataGridView1.Size = new System.Drawing.Size(811, 446);
             dataGridView1.TabIndex = 26;
             // 
-            // label7
-            // 
-            label7.BackColor = System.Drawing.Color.White;
-            label7.Font = new System.Drawing.Font("Sans Serif Collection", 11.9999981F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label7.Location = new System.Drawing.Point(262, 57);
-            label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(811, 37);
-            label7.TabIndex = 27;
-            label7.Text = "Lista de usuarios:";
-            label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // idUsuario
             // 
             idUsuario.HeaderText = "idUsuario";
@@ -365,6 +354,17 @@
             EstadoValor.ReadOnly = true;
             EstadoValor.Visible = false;
             // 
+            // label7
+            // 
+            label7.BackColor = System.Drawing.Color.White;
+            label7.Font = new System.Drawing.Font("Sans Serif Collection", 11.9999981F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label7.Location = new System.Drawing.Point(262, 57);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(811, 37);
+            label7.TabIndex = 27;
+            label7.Text = "Lista de usuarios:";
+            label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // frmEmpleados
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -395,6 +395,7 @@
             Controls.Add(label1);
             Name = "frmEmpleados";
             Text = "frmEmpleados";
+            Load += frmEmpleados_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

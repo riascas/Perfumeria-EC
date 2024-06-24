@@ -8,6 +8,7 @@ namespace UI.Utilidades
 {
     public class OpcionCombo
     {
-
+        public string Texto { get; set; }
+        public string Valor { get; set; }
     }
 }
