@@ -12,3 +12,6 @@
 /Programa/UI/obj/Debug/net5.0-windows/UI.designer.deps.json
 /Programa/UI/obj/Debug/net5.0-windows/UI.designer.runtimeconfig.json
 /Programa/UI/obj/Debug/net5.0-windows/UI.GeneratedMSBuildEditorConfig.editorconfig
+*.resources
+*.cache
+*.cs
