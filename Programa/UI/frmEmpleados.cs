@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UI.Utilidades;
 
 namespace UI
 {
@@ -17,9 +18,15 @@ namespace UI
             InitializeComponent();
         }
 
-        private void label16_Click(object sender, EventArgs e)
+        private void frmEmpleados_Load(object sender, EventArgs e)
         {
-
+            /*
+            cboestado.Items.Add(new OpcionCombo() { Valor = 1, Texto = "Activo" });
+            cboestado.Items.Add(new OpcionCombo() { Valor = 0, Texto = "No Activo" });
+            cboestado.DisplayMember = "Texto";
+            cboestado.ValueMember = "Valor";
+            cboestado.SelectedIndex= 0;
+            */
         }
     }
 }

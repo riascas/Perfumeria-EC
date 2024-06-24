@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             label1 = new System.Windows.Forms.Label();
             label2 = new System.Windows.Forms.Label();
             label3 = new System.Windows.Forms.Label();
@@ -38,15 +40,29 @@
             cborol = new System.Windows.Forms.ComboBox();
             cboestado = new System.Windows.Forms.ComboBox();
             label8 = new System.Windows.Forms.Label();
-            textBox1 = new System.Windows.Forms.TextBox();
-            textBox2 = new System.Windows.Forms.TextBox();
-            textBox3 = new System.Windows.Forms.TextBox();
-            textBox4 = new System.Windows.Forms.TextBox();
-            textBox5 = new System.Windows.Forms.TextBox();
+            txtNrodocumento = new System.Windows.Forms.TextBox();
+            textnombreCompleto = new System.Windows.Forms.TextBox();
+            textCorreo = new System.Windows.Forms.TextBox();
+            textClave = new System.Windows.Forms.TextBox();
+            textconfirmarClave = new System.Windows.Forms.TextBox();
             btnGuardar = new System.Windows.Forms.Button();
             btnEditar = new System.Windows.Forms.Button();
             btnEliminar = new System.Windows.Forms.Button();
             label9 = new System.Windows.Forms.Label();
+            dataGridView1 = new System.Windows.Forms.DataGridView();
+            btnseleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
+            IdUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            NombreCompleto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Correo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Clave = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            IdRol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Rol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            EstadoValor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            label10 = new System.Windows.Forms.Label();
+            txtid = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -144,40 +160,40 @@
             label8.TabIndex = 13;
             label8.Text = "Estado:";
             // 
-            // textBox1
+            // txtNrodocumento
             // 
-            textBox1.Location = new System.Drawing.Point(24, 87);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new System.Drawing.Size(219, 23);
-            textBox1.TabIndex = 4;
+            txtNrodocumento.Location = new System.Drawing.Point(24, 87);
+            txtNrodocumento.Name = "txtNrodocumento";
+            txtNrodocumento.Size = new System.Drawing.Size(219, 23);
+            txtNrodocumento.TabIndex = 4;
             // 
-            // textBox2
+            // textnombreCompleto
             // 
-            textBox2.Location = new System.Drawing.Point(24, 145);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new System.Drawing.Size(219, 23);
-            textBox2.TabIndex = 5;
+            textnombreCompleto.Location = new System.Drawing.Point(24, 145);
+            textnombreCompleto.Name = "textnombreCompleto";
+            textnombreCompleto.Size = new System.Drawing.Size(219, 23);
+            textnombreCompleto.TabIndex = 5;
             // 
-            // textBox3
+            // textCorreo
             // 
-            textBox3.Location = new System.Drawing.Point(24, 205);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new System.Drawing.Size(219, 23);
-            textBox3.TabIndex = 6;
+            textCorreo.Location = new System.Drawing.Point(24, 205);
+            textCorreo.Name = "textCorreo";
+            textCorreo.Size = new System.Drawing.Size(219, 23);
+            textCorreo.TabIndex = 6;
             // 
-            // textBox4
+            // textClave
             // 
-            textBox4.Location = new System.Drawing.Point(24, 265);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new System.Drawing.Size(219, 23);
-            textBox4.TabIndex = 8;
+            textClave.Location = new System.Drawing.Point(24, 265);
+            textClave.Name = "textClave";
+            textClave.Size = new System.Drawing.Size(219, 23);
+            textClave.TabIndex = 8;
             // 
-            // textBox5
+            // textconfirmarClave
             // 
-            textBox5.Location = new System.Drawing.Point(24, 326);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new System.Drawing.Size(219, 23);
-            textBox5.TabIndex = 10;
+            textconfirmarClave.Location = new System.Drawing.Point(24, 326);
+            textconfirmarClave.Name = "textconfirmarClave";
+            textconfirmarClave.Size = new System.Drawing.Size(219, 23);
+            textconfirmarClave.TabIndex = 10;
             // 
             // btnGuardar
             // 
@@ -229,12 +245,126 @@
             label9.TabIndex = 18;
             label9.Text = "Detalle usuario";
             // 
+            // dataGridView1
+            // 
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { btnseleccionar, IdUsuario, Documento, NombreCompleto, Correo, Clave, IdRol, Rol, Estado, EstadoValor });
+            dataGridView1.Location = new System.Drawing.Point(337, 145);
+            dataGridView1.MultiSelect = false;
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridView1.RowTemplate.Height = 28;
+            dataGridView1.Size = new System.Drawing.Size(808, 432);
+            dataGridView1.TabIndex = 19;
+            // 
+            // btnseleccionar
+            // 
+            btnseleccionar.HeaderText = "";
+            btnseleccionar.Name = "btnseleccionar";
+            btnseleccionar.ReadOnly = true;
+            btnseleccionar.Width = 50;
+            // 
+            // IdUsuario
+            // 
+            IdUsuario.HeaderText = "IdUsuario";
+            IdUsuario.Name = "IdUsuario";
+            IdUsuario.ReadOnly = true;
+            IdUsuario.Visible = false;
+            // 
+            // Documento
+            // 
+            Documento.HeaderText = "Nro Documento";
+            Documento.Name = "Documento";
+            Documento.ReadOnly = true;
+            // 
+            // NombreCompleto
+            // 
+            NombreCompleto.HeaderText = "Nombre Completo";
+            NombreCompleto.Name = "NombreCompleto";
+            NombreCompleto.ReadOnly = true;
+            NombreCompleto.Width = 180;
+            // 
+            // Correo
+            // 
+            Correo.HeaderText = "Correo";
+            Correo.Name = "Correo";
+            Correo.ReadOnly = true;
+            Correo.Width = 150;
+            // 
+            // Clave
+            // 
+            Clave.HeaderText = "Clave";
+            Clave.Name = "Clave";
+            Clave.ReadOnly = true;
+            Clave.Visible = false;
+            // 
+            // IdRol
+            // 
+            IdRol.HeaderText = "IdRol";
+            IdRol.Name = "IdRol";
+            IdRol.ReadOnly = true;
+            IdRol.Visible = false;
+            // 
+            // Rol
+            // 
+            Rol.HeaderText = "Rol";
+            Rol.Name = "Rol";
+            Rol.ReadOnly = true;
+            // 
+            // Estado
+            // 
+            Estado.HeaderText = "Estado";
+            Estado.Name = "Estado";
+            Estado.ReadOnly = true;
+            // 
+            // EstadoValor
+            // 
+            EstadoValor.HeaderText = "EstadoValor";
+            EstadoValor.Name = "EstadoValor";
+            EstadoValor.ReadOnly = true;
+            EstadoValor.Visible = false;
+            // 
+            // label10
+            // 
+            label10.BackColor = System.Drawing.Color.White;
+            label10.Font = new System.Drawing.Font("Sans Serif Collection", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label10.Location = new System.Drawing.Point(337, 35);
+            label10.Name = "label10";
+            label10.Size = new System.Drawing.Size(800, 45);
+            label10.TabIndex = 20;
+            label10.Text = "Lista de usuarios:";
+            label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // txtid
+            // 
+            txtid.Location = new System.Drawing.Point(212, 57);
+            txtid.Name = "txtid";
+            txtid.Size = new System.Drawing.Size(31, 23);
+            txtid.TabIndex = 21;
+            txtid.Visible = false;
+            // 
             // frmEmpleados
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.Black;
             ClientSize = new System.Drawing.Size(1187, 675);
+            Controls.Add(txtid);
+            Controls.Add(label10);
+            Controls.Add(dataGridView1);
             Controls.Add(label9);
             Controls.Add(btnEliminar);
             Controls.Add(btnEditar);
@@ -243,19 +373,21 @@
             Controls.Add(label8);
             Controls.Add(cborol);
             Controls.Add(label7);
-            Controls.Add(textBox5);
+            Controls.Add(textconfirmarClave);
             Controls.Add(label6);
-            Controls.Add(textBox4);
+            Controls.Add(textClave);
             Controls.Add(label5);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(textCorreo);
+            Controls.Add(textnombreCompleto);
+            Controls.Add(txtNrodocumento);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "frmEmpleados";
             Text = "frmEmpleados";
+            Load += frmEmpleados_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -272,14 +404,27 @@
         private System.Windows.Forms.ComboBox cborol;
         private System.Windows.Forms.ComboBox cboestado;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtNrodocumento;
+        private System.Windows.Forms.TextBox textnombreCompleto;
+        private System.Windows.Forms.TextBox textCorreo;
+        private System.Windows.Forms.TextBox textClave;
+        private System.Windows.Forms.TextBox textconfirmarClave;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.DataGridViewButtonColumn btnseleccionar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IdUsuario;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Documento;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NombreCompleto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Correo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Clave;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IdRol;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Rol;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EstadoValor;
+        private System.Windows.Forms.TextBox txtid;
     }
 }
