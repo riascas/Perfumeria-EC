@@ -43,3 +43,5 @@
 /Programa/UI/obj/UI.csproj.nuget.g.props
 *.resx
 *.dll
+/Programa/UI/.vs/UI/DesignTimeBuild/.dtbcache.v2
+/Programa/UI/.vs/UI/DesignTimeBuild/.dtbcache.v2
