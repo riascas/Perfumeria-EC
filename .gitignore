@@ -45,3 +45,4 @@
 *.dll
 /Programa/UI/.vs/UI/DesignTimeBuild/.dtbcache.v2
 /Programa/UI/.vs/UI/DesignTimeBuild/.dtbcache.v2
+*.bin
