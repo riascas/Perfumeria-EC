@@ -45,4 +45,19 @@
 *.dll
 /Programa/UI/.vs/UI/DesignTimeBuild/.dtbcache.v2
 /Programa/UI/.vs/UI/DesignTimeBuild/.dtbcache.v2
+<<<<<<< HEAD
 *.bin
+=======
+/Programa/UI/.vs/ProjectEvaluation/ui.metadata.v8.bin
+/Programa/UI/.vs/ProjectEvaluation/ui.projects.v8.bin
+/Programa/UI/.vs/ProjectEvaluation/ui.strings.v8.bin
+/Programa/UI/.vs/UI/FileContentIndex/889837e8-47c9-4dfe-bba9-562f6355efec.vsidx
+/Programa/UI/.vs/UI/FileContentIndex/4ab60161-c6ed-4993-9a91-f41f59d909f7.vsidx
+/Programa/UI/.vs/UI/FileContentIndex/5b9626e8-bd93-437f-b973-b4c330040aac.vsidx
+/Programa/UI/.vs/UI/FileContentIndex/ad579a93-2193-4b14-8746-313bac02b340.vsidx
+/Programa/UI/.vs/UI/FileContentIndex/fcccb528-2e87-4348-bfec-b3d798353530.vsidx
+/Programa/UI/.vs/UI/v17/.futdcache.v2
+>>>>>>> test2
+/Programa/UI/.vs/UI/v17/.futdcache.v2
+/Programa/UI/.vs/UI/v17/.futdcache.v2
+/.gitignore
