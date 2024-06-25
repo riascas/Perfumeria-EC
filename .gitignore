@@ -41,3 +41,9 @@
 /Programa/UI/obj/UI.csproj.nuget.g.props
 /Programa/UI/obj/Debug/net5.0-windows/UI.csproj.FileListAbsolute.txt
 /Programa/UI/Properties/Resources.resx
+/Programa/BLL/obj/Debug/BLL.csproj.AssemblyReference.cache
+/Programa/BLL/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/Programa/DAL/obj/Debug/DAL.csproj.AssemblyReference.cache
+/Programa/DAL/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/Programa/UI/.vs/ProjectEvaluation/ui.metadata.v7.bin
+/Programa/UI/.vs/ProjectEvaluation/ui.projects.v7.bin
